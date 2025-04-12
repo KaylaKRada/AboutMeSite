@@ -1,0 +1,260 @@
+@charset "utf-8";
+/*
+   Kayla Rada Portfolio
+
+   Author: Kayla Rada
+   Create Date: 04/20/2023
+
+   Filename: kr_family.css
+   
+*/
+
+/* Body */
+
+body {
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    background-size: 1200% 100%;
+    animation: gradient 50s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .menu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    z-index: 9999;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .menu a:hover {
+    background-color: #8f918d;
+  }
+
+  /* Background & Images */
+  
+  .background {
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1400px;
+    height: 240px;
+  }
+
+  .doggo1 {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+    z-index: 9994;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .doggo2 {
+    position: absolute;
+    top: 50%;
+    left: 87%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+    z-index: 9994;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .doggo3 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+    z-index: 9994;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  
+  .doggo4 {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+    z-index: 9994;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .tuck1 {
+    position: absolute;
+    top: 65%;
+    left: 14%;
+    width: 300px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+    object-fit: cover;
+    z-index: 1;
+    transform: skew(-10deg);
+    overflow: hidden;
+  }
+
+  .tuck2 {
+    position: absolute;
+    top: 85%;
+    left: 33%;
+    width: 300px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+    object-fit: cover;
+    z-index: 1;
+    transform: skew(-10deg);
+    overflow: hidden;
+  }
+
+  
+  .tuck3 {
+    position: absolute;
+    top: 105%;
+    left: 14%;
+    width: 300px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(170, 0, 249, 0.785);
+    object-fit: cover;
+    z-index: 1;
+    transform: skew(-10deg);
+    overflow: hidden;
+  }
+
+  .tuck4 {
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    width: 300px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(170, 0, 249, 0.785);
+    object-fit: cover;
+    z-index: 1;
+    transform: skew(-10deg);
+    overflow: hidden;
+  }
+
+  audio {
+    position: absolute;
+    top: 145%;
+    left: 70%;
+  }
+  
+
+  /* Title and text */
+
+  .title {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: OCR A Std, monospace;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.581);
+}
+
+.doggos-description {
+  position: absolute;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.675);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 0 0 10px 10px;
+  max-width: 350px;
+  margin: 0 auto;
+  z-index: 9991;
+  top: 0%;
+  right: 51%;
+  z-index: 9999;
+}
+
+.tuck-description {
+  position: absolute;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.675);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 0 0 10px 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  z-index: 9991;
+  top: 90%;
+  right: 0%;
+  z-index: 9999;
+}
+
