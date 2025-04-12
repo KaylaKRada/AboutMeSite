@@ -38,8 +38,3 @@ This site was the first big step in my coding journey. While it’s basic by tod
 - 🧠 Learned how to build full HTML pages from scratch  
 - 🎨 Used CSS for layout, animation, and design  
 - 💡 Gained confidence writing code that reflects *me*
-
----
-
-## 💻 Live Preview (optional)  
-Coming soon on [kaylakrada.github.io](https://kaylakrada.github.io) ✨
