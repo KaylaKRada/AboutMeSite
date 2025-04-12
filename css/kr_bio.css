@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*
+   Kayla Rada Portfolio
+
+   Author: Kayla Rada
+   Create Date: 04/20/2023
+
+   Filename: kr_bio.css
+   
+*/
+
+/* HTML and Body Styles */
+
+body {
+  background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+  background-size: 1200% 100%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  
+/* Page tabs and navigation */
+
+.menu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    z-index: 9999;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .menu a:hover {
+    background-color: #8f918d;
+  }
+
+  /* Home Page Images */
+
+  .cutout {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1536px;
+    height: 300px;
+  }
+  
+  img.polaroid1 {
+    position: absolute;
+    top: 7%;
+    right: 1%;
+    box-shadow: 5px 5px 5px #040404;
+    width: 25%;
+    height: auto;
+  }
+
+  img.Dogs1 {
+    position: absolute;
+    top: 2%;
+    right: 25%;
+    box-shadow: 5px 5px 5px #040404;
+    width: 25%;
+    height: auto;
+  }
+
+  img.TK1 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    box-shadow: 5px 5px 5px #040404;
+    width: 30%;
+    height: auto;
+  }
+  
+  /* Home Page Title */
+
+  .title h2 {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-family: OCR A Std, monospace;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    height: 80%;
+  }
+ 
+.title p {
+  position: absolute;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.675);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 0 0 10px 10px;
+  font-size: 17px;
+  max-width: 500px;
+  margin: 0 auto;
+  z-index: 9991;
+  top: 18%;
+  right: 51%;
+  z-index: 9999;
+}
+  
