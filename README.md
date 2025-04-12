@@ -15,7 +15,7 @@ This was my first full HTML and CSS website, built during my very first semester
 This project was my introduction to building websites from scratch using HTML and CSS. The assignment was to create a personal site that showcased who we are; no templates, just code. I had never written HTML before, and it felt a little overwhelming at first, but also super exciting.
 
 ### 🔧 **Action**  
-I created a basic multi-page website with internal navigation, individual pages for my family, hobbies, and career path, and some creative styling using CSS gradients, absolute positioning, and animations. I also added fun details like a side menu, image cutouts, and page-specific styles (each section has its own `.css` file). This was all hand-coded using a simple text editor.
+I created a basic multi-page website with internal navigation, individual pages for my family, hobbies, and career path, and some creative styling using CSS gradients, absolute positioning, and animations. I also added fun details like a side menu, image cutouts, and page-specific styles (each section has its own `.css` file). This was all hand-coded using visual studio 2022.
 
 ### ✅ **Result**  
 The site worked exactly as I hoped—it felt like a digital scrapbook of my life. While there were no advanced interactions yet, it was the first time I saw how code could turn into something personal and expressive. It gave me a solid foundation in how to organize HTML, link stylesheets, and structure a multi-page site.
