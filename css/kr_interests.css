@@ -1,0 +1,273 @@
+@charset "utf-8";
+/*
+   Kayla Rada Portfolio
+
+   Author: Kayla Rada
+   Create Date: 04/20/2023
+
+   Filename: kr_interests.css
+   
+*/
+
+/* Home Page title */
+
+.title {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: OCR A Std, monospace;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.581);
+}
+
+/* Body & Images */
+
+body {
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    background-size: 1200% 100%;
+    animation: gradient 100s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .menu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    z-index: 9999;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .menu a:hover {
+    background-color: #8f918d;
+  }
+
+  .art1-container {
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    width: 275px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  .art2-container {
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  .art3-container {
+    position: absolute;
+    top: 58%;
+    left: 60%;
+    width: 280px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  .art4-container {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 300px;
+    height: 270px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  .art5-container {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 340px;
+    height: 270px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  
+  .art6-container {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    width: 340px;
+    height: 270px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  .art7-container {
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    width: 340px;
+    height: 270px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+
+  .art8-container {
+    position: absolute;
+    top: 82%;
+    left: 48%;
+    width: 340px;
+    height: 270px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ae00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(170, 0, 249, 0.785);
+  }
+  
+  
+
+  /* Form design */
+
+  .form-container {
+        position: absolute;
+        padding: 20px;
+        background-color: rgba(169, 31, 187, 0.804);
+        color: #fff;
+        font-family: Arial, sans-serif;
+        border-radius: 0 0 10px 10px;
+        font-size: 17px;
+        width: 900px;
+        height: 500px;
+        margin: 0 auto;
+        top: 105%;
+        right: 15%;
+        border: 2px solid #ae00ff;
+        box-shadow: 0 0 40px rgba(170, 0 , 249, 0.785);
+      }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: OCR A Std, monospace;
+  }
+
+  .form-title h1 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 26px;
+    width: 100%;
+    top: 106%;
+    left: 50%;
+    font-family: OCR A Std, monospace;
+    z-index: 9998;
+  }
+
+  .form-title p {
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: #fff;
+    font-family: OCR A Std, monospace;
+    border-radius: 0 0 10px 10px;
+    font-size: 17px;
+    max-width: 700px;
+    margin: 0 auto;
+    top: 99%;
+    right: 45%;
+    z-index: 9999;
+  }
+
+  .form-button {
+    position: absolute;
+    font-family: OCR A Std, monospace;
+    font-size: 30px;
+  }
+
+textarea {
+    height: 75px;
+    width: 400px;
+}
+
+.commission-desc p {
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: #fff;
+    font-family: OCR A Std, monospace;
+    border-radius: 0 0 10px 10px;
+    font-size: 19px;
+    width: 28%;
+    height: 55%;
+    margin: 0 auto;
+    top: 115%;
+    right: 17%;
+}
+
+  .radio-label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .radio-input {
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+  }
