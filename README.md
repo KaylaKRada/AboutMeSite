@@ -35,6 +35,7 @@ This site was the first big step in my coding journey. While it’s basic by tod
 ---
 
 ## 🌟 Highlights
+- 🛠️ Tech Used: HTML5, CSS3, Visual Studio 2022
 - 🧠 Learned how to build full HTML pages from scratch  
 - 🎨 Used CSS for layout, animation, and design  
 - 💡 Gained confidence writing code that reflects *me*
